@@ -1,7 +1,7 @@
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE="friendshipcoin.conf"
 BINARY_FILE="/usr/local/bin/friendshipcoind"
-REPO="https://github.com/friendshipCoin/friendshipcoin-core.git"
+REPO="https://github.com/elliottminns/testcoin.git"
 apt-get update -y
 apt-get install vim git build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils software-properties-common libgmp3-dev  -y
 apt-get install libboost-all-dev -y
